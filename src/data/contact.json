@@ -1,0 +1,22 @@
+{
+    "Hire me": [
+        {
+            "text": "nathhuzaifa.2005@gmail.com",
+            "href": "mailto:nathhuzaifa.2005@gmail.com"
+        }
+    ],
+    "Social": [
+        {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/in/huzaifa-nath",
+            "target": "_blank"
+        }
+    ],
+    "Open source": [
+        {
+            "text": "GitHub",
+            "href": "https://github.com/Huzaifa-Nath",
+            "target": "_blank"
+        }
+    ]
+}

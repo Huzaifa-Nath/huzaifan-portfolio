@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Slough Blog",
+        "description": "My first real step into web development. A simple blog platform I built while learning the ropes, where I figured out how code turns into something people can actually use. Messy beginnings, solid foundations, and the project that started it all.",
+        "link": "https://sloughblog.com/",
+        "background": "/project/sloughbackground.png",
+        "mobile_pic": "/project/mobileslough.png",
+        "desktop_pic": "/project/laptopslough.png"
+    },
+    {
+        "title": "Portfolio",
+        "description": "The portfolio project is the website you’re on right now. While many of my projects focus on architecture, algorithms, and data science, I’ve always had a strong passion for frontend development. I’ve long dreamed of becoming a “Creative Developer,” and I regularly explore awwwards.com for inspiration and to study the techniques behind advanced visual effects. This portfolio is both a way to present my work and a way to stay true to that ambition. If you have any suggestions or feedback, feel free to reach out!",
+        "link": "",
+        "background": "/backgrounds/mountains.png",
+        "mobile_pic": "https://raw.githubusercontent.com/Cyprien-png/portfolio/refs/heads/main/public/contact/path.png",
+        "desktop_pic": "/backgrounds/watchtower.png"
+    }
+]
