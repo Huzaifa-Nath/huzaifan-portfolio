@@ -18,33 +18,31 @@ onMounted(() => {
 
     <main class="framed-wrapper">
 
-    <div class="p-[2dvw] pl-[3dvw] relative h-full max-w-full w-full mx-auto">
+    <div class="p-[3dvw] relative h-full cursor-pointer max-w-full w-full mx-auto">
 
-            <div 
+            <a href={{ project.link }} target="_blank"
                 v-for="(project, index) in projects" 
                 :key="index"
-                class="sticky w-full flex items-center justify-center mb-4"
+                class="sticky w-full flex items-center  justify-center mb-4"
                 :style="{ top: `${80 + (index * 40)}px` }"
             >
                 <div 
-                    class="project-card reveal-up w-full rounded-[2rem] overflow-hidden"
+                    class="project-card reveal-up w-full  rounded-[2rem] overflow-hidden"
                     :class="{ 'active': mounted }"
                 >
                     <div 
-                        class="card-inner group"
+                        class="card-inner group "
                         :style="{ backgroundImage: `url(${project.background})` }"
                     >
-                        <div class="overlay  transition-colors duration-700"></div>
+                        <div class="overlay transition-colors duration-700"></div>
                         
                         <!-- Content -->
-                        <div class="relative z-10 text-center -">
-                            <span class="text-xs uppercase tracking-widest text-[#c5a367] mb-2 block opacity-0  transform translate-y-4 transition-all duration-700">
-                                {{ project.category }}
-                            </span>
-                            <h2 class="font-serif text-5xl md:text-8xl text-white leading-tight">
+                        <div class="relative  z-10 text-center -">
+                            
+                            <h2 class="font-rubik text-2xl  md:text-8xl text-white leading-tight">
                                 {{ project.title }}
                             </h2>
-                            <p class="mt-4 text-white/60 font-light tracking-wide max-w-md  opacity-0 transition-opacity duration-700 delay-100">
+                            <p class="font-serif text-sm md:text-2xl p-5 text-white leading-relaxed  lg:max-w-3xl pt-10">
                                 {{ project.description }}
                             </p>
                         </div>
@@ -52,7 +50,7 @@ onMounted(() => {
                         
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </main>
 

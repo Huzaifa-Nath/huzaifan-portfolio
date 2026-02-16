@@ -12,11 +12,11 @@ onMounted(() => {
 </script>
 
 <template>
-    <FramedMainSection ref="frameRef" id="home" class="h-dvh">
+    <FramedMainSection ref="frameRef" id="home"  class="lg:h-screen min-h-[88vh] overflow-hidden">
         <div 
-            class="h-full w-full bg-fit bg-cover bg-position-[center_40%] rounded-[2rem] bg-[url('/backgrounds/mountains.png')] flex flex-col justify-center items-center text-center">
+            class="h-full w-full bg-fit bg-cover bg-position-[center_40%]  rounded-[2rem] bg-[url('/backgrounds/mountains.png')] flex flex-col justify-center items-center text-center">
             <div
-                class="text-[#fff] font-rubik uppercase text-[10dvw] xl:text-[13dvh] leading-none flex flex-col justify-center items-center ">
+                class="text-[#fff] font-rubik uppercase text-[10dvw] xl:text-[13dvh]  leading-none flex flex-col justify-center items-center ">
              
                 <p class="flex h-[8.4dvw] xl:h-[13dvh] overflow-hidden">
                     <span class="standard-text">I </span>
@@ -37,3 +37,4 @@ onMounted(() => {
         </div>
     </FramedMainSection>
 </template>
+

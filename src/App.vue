@@ -19,11 +19,6 @@ const { resetWidth, md } = useWindowContext()
 const component = ref()
 const windowComponent = ref()
 
-const images = [
-  '/images/p1.jpg',
-  '/images/p2.jpg',
-  '/images/p3.jpg'
-]
 
 onMounted(() => {
   component.value = new AnimatedComponent()
@@ -39,35 +34,13 @@ onMounted(() => {
 </script>
 
 
-<template>
-  <!-- ✅ GLOBAL FILTERS (NOT COMPONENTS, NOT IMPORTED) -->
-  <svg width="0" height="0" style="position:absolute">
-    <filter id="liquidFilter">
-      <feImage
-        href="data:image/png;base64,...."
-        preserveAspectRatio="none"
-      />
-      <feDisplacementMap
-        in="SourceGraphic"
-        scale="300"
-        xChannelSelector="R"
-        yChannelSelector="G"
-      />
-    </filter>
-
-    <filter id="liquidTexturedFilter">
-      <!-- your textured filter -->
-    </filter>
-  </svg>
-
-
-  
+<template>  
   <ScrollBar />
 
   <div
-    ref="containerRef"
-    class="overflow-auto h-dvh flex flex-col items-center font-ledger"
-  >
+  ref="containerRef"
+  class="overflow-auto h-screen flex flex-col items-center font-ledger custom-scroll-container"
+>
     <LiquidNavbar />
 
     <div ref="contentRef" class="w-full flex flex-col">

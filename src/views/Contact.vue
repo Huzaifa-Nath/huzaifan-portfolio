@@ -41,11 +41,11 @@ onBeforeUnmount(() => {
                         <img src="https://github.com/Cyprien-png/portfolio/blob/main/public/contact/path.png?raw=true" alt="" data-parallax-value=".025" class="absolute h-auto w-full translate-y-1/3 scale-110 object-cover parallax"/>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8 px-8 text-white">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8 px-5 text-white">
                     <div v-for="(value, key) in contact" :key="key" class="h-full w-full">
                         <h2 class="font-rubik border-b-2 border-dashed border-neutral-400 text-xl">{{ key }}</h2>
                         <ul class="pt-4 text-2xl flex flex-col gap-2">
-                            <li v-for="(h, index) in value" :key="index" class="w-fit"><CustomA v-if="!h.hidden" :text="h.text" :href="h.href" :target="h.target"/></li>
+                            <li v-for="(h, index) in value" :key="index" class="text-base lg:text-xl w-fit"><CustomA v-if="!h.hidden" :text="h.text" :href="h.href" :target="h.target"/></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ onBeforeUnmount(() => {
                     <h1 class="text-[#de2e2e] z-10">Nath</h1>
                 </div>
 
-                <div class="h-full w-full flex justify-center items-end absolute pointer-events-none bg-red-400a" :style="`transform: translateY(${translationRef}px)`">
+                <div class="h-full w-full flex justify-center lg:items-end absolute pointer-events-none " :style="`transform: translateY(${translationRef}px)`">
                     <div class="max-h-full relative w-2/3 md:w-full aspect-[9/16]">
                         <img src="../../public/contact/body.png" alt="" data-parallax-value=".15" class="absolute h-full w-full top-0 left-0 object-contain parallax"/>
                         <img src="../../public/contact/arm.png" alt="" data-parallax-value=".17" class="absolute h-full w-full top-0 left-0 object-contain parallax"/>

@@ -75,14 +75,14 @@ onBeforeUnmount(() => {
 
     </nav>
     <section :class="{ '-translate-x-full': !isMobileMenuOpened }"
-        class="flex md:hidden transition-all fixed inset-0 h-full w-full filter backdrop-filter-[url('#liquidTexteredFilter')] z-10 overflow-x-scroll">
+        class="flex md:hidden transition-all fixed inset-0 h-full w-full filter backdrop-filter-[url('#liquidTexturedFilter')] z-50 ">
         <div class="absolute inset-0 w-full h-full bg-black opacity-75 -z-10"></div>
         <div class="h-full w-full flex flex-col items-center text-white p-16 font-rubik z-0">
             <CrossIcon class="absolute top-4 left-4 h-12 w-12 cursor-pointer" @click="isMobileMenuOpened = false" />
             <span v-for="s in getSections()" :key="s.id" class="flex-1 flex items-center">
                 <a href="" @click="(e) => { scrollTo(e, s.el); isMobileMenuOpened = false }"
                     class="text-3xl flex items-center justify-center transition-all cursor-pointer pointer-events-auto"
-                    :class="{ 'text-red-custom': s.id === currentSection }">
+                    :class="{ 'text-[#de2e2e]': s.id === currentSection }">
                     {{ s.id }}
                 </a>
             </span>

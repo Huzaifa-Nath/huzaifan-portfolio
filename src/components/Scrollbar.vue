@@ -93,11 +93,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="absolute top-0 right-0 w-8 h-full z-30 font-rubik py-[3dvw]">
+    <div class="absolute p top-0 right-0 w-8 h-full z-30 font-rubik py-[3dvw]">
         <div ref="scrollTrack" class="w-full h-full relative flex justify-center">
             <div ref="scrollThumb" v-if="isScollable" :data-scroll-thumb-y="thumbY" @mousedown="onMouseDown"
                 :style="`top: ${thumbY}px`"
-                class="w-5/8 cursor-pointer bg-neutral-300 absolute top-0 h-10 rounded-xs flex items-center justify-center">
+                class="w-5/8 cursor-pointer bg-neutral-300 absolute top-0 h-10  rounded-xs flex items-center justify-center">
                 <span class="text-[12px] text-white rotate-270 text-left leading-none flex items-center justify-center">
                     {{ Math.round(coeff * 100) }}
                 </span>

@@ -29,3 +29,12 @@
     @apply before:content-[''] before:absolute before:inset-0 before:shadow-[inset_0_0_8px_1px_rgba(255,255,255,0.3)];
   }
 }
+
+.custom-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scroll-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
