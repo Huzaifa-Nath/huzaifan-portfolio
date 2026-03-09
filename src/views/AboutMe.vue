@@ -73,7 +73,7 @@ onBeforeUnmount(() => {
         <FollowingFrame v-if="frameSectionRef" :contentSection="frameSectionRef">
             <div ref="topRef" class="h-full w-full bg-white p-[3dvw]">
                 <div class="h-full w-full relative flex justify-center items-center rounded-[2rem] overflow-hidden">
-                    <div class="absolute h-full w-full top-0 left-0 bg-[url('https://github.com/Cyprien-png/portfolio/blob/main/public/backgrounds/room.jpg?raw=true')] bg-cover bg-bottom"></div>
+                    <div class="absolute h-full w-full top-0 left-0 bg-[url('/backgrounds/room.jpg')] bg-cover bg-bottom"></div>
                     <div class="h-1/2 w-full overflow-hidden px-[3dvw] z-10">
 
                         <div class="absolute h-6 z-30 flex items-center gap-2 text-white">

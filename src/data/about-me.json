@@ -1,20 +1,20 @@
     [
         {
-            "image": "https://github.com/Cyprien-png/portfolio/blob/main/public/about/kid.png?raw=true",
+            "image": "/about/kid.png",
             "when": "When I was a child",
             "description" : "I wanted to be an automobile engineer. I was fascinated by how cars and motorbikes worked. I’d imagine engines moving in slow motion, pistons firing, gears shifting. I didn’t just see a vehicle. I saw a system. I took toys apart and put them back together, trying to understand how each piece played its role. That mindset stayed with me.",
             "from": "2005",
             "to": "2022"
         },
         {
-            "image": "https://github.com/Cyprien-png/portfolio/blob/main/public/about/teen.png?raw=true",
+            "image": "/about/teen.png",
             "when": "Reaching my teenage years",
             "description": "As my school years were coming to an end, I wasn’t sure what direction to take. But something quietly shifted. Instead of wondering how engines worked, I began questioning how apps functioned. How does a single tap trigger so much behind the scenes? How does a game react instantly? How does data travel across the world in seconds? The curiosity never changed. Only the machine did.",
             "from": "2022",
             "to": "2025"
         },
         {
-            "image": "https://github.com/Cyprien-png/portfolio/blob/main/public/about/adult.png?raw=true",
+            "image": "/about/kid.png",
             "when": "Today",
             "description": "Today, my curiosity has become discipline. I focus on building systems that go beyond the interface, understanding how data flows, how authentication works, and how applications scale. I’m no longer just learning concepts. I’m applying them and refining my craft with every project.",
             "from": "2025",
